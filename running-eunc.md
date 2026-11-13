@@ -19,11 +19,11 @@ The benchmark follows a general execution process:
 
 A typical loader looks like this:
 
-\`\`\`lua
+```lua
 loadstring(game:HttpGet(
     "https://raw.githubusercontent.com/EnhancedUNC/eUNC/main/src/main.lua"
 ))()
-\`\`\`
+```
 
 This retrieves and executes the benchmark's main entry point.
 
