@@ -6,14 +6,14 @@ Configuration is supplied through the eUNCDebug table.
 
 ## Example Configuration
 
-\`\`\`lua
+```lua
 getgenv().eUNCDebug = {
     ["printcheckpoints"] = false,
     ["delaybetweentests"] = 0,
     ["printtesttimetaken"] = false,
     ["savetodevice"] = false,
 }
-\`\`\`
+```
 
 Load the benchmark after configuring the table.
 
