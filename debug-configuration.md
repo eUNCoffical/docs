@@ -41,9 +41,9 @@ Enables saving the benchmark report to a local file.
 
 When enabled, eUNC attempts to save:
 
-\`\`\`
+```
 eUNC-results.json
-\`\`\`
+```
 
 The executor must provide a compatible writefile function.
 
@@ -53,7 +53,7 @@ If either requirement is unavailable, the report cannot be exported successfully
 
 ## Example: Save Results
 
-\`\`\`lua
+```lua
 getgenv().eUNCDebug = {
     ["printcheckpoints"] = false,
     ["delaybetweentests"] = 0,
@@ -64,7 +64,7 @@ getgenv().eUNCDebug = {
 loadstring(game:HttpGet(
     "https://raw.githubusercontent.com/EnhancedUNC/eUNC/main/src/main.lua"
 ))()
-\`\`\`
+```
 
 ## Compatibility
 
