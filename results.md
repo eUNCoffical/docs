@@ -42,9 +42,9 @@ UNKNOWN is not equivalent to PASS.
 
 The current runner calculates its overall score using:
 
-\`\`\`
+```
 Score = Passed Tests / Total Tests
-\`\`\`
+```
 
 Unknown tests remain included in the total test count.
 
